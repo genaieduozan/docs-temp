@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Files</title>
+    <style>
+        body {
+            background-color: #2e2e2e;
+            color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        #content {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #3e3e3e;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Markdown Files</h1>
+    <ul id="file-list">
+        <!-- List of Markdown files will be inserted here by JavaScript -->
+    </ul>
+    <div id="content">
+        <!-- Rendered Markdown content will appear here -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked@4.0.12/marked.min.js"></script>
+    <script>
+        // List of Markdown files (simulated for this example)
+        const mdFiles = [
+            "1-business-toc.md",
+            "2-student-toc.md",
+            "3-student-tools.md",
+            "4-business-tools.md"
+        ];
+
+        const fileList = document.getElementById("file-list");
+        const content = document.getElementById("content");
+
+        mdFiles.forEach(file => {
+            const listItem = document.createElement("li");
+            const link = document.createElement("a");
+            link.href = "#";
+            link.textContent = file;
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                fetch(file)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok');
+                        }
+                        return response.text();
+                    })
+                    .then(text => {
+                        content.innerHTML = marked.parse(text);
+                    })
+                    .catch(error => {
+                        console.error('Error fetching the file:', error);
+                        content.innerHTML = '<p>Error loading the file. Please check the console for details.</p>';
+                    });
+            });
+            listItem.appendChild(link);
+            fileList.appendChild(listItem);
+        });
+    </script>
+</body>
+</html>
