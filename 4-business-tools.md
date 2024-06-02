@@ -1,0 +1,30 @@
+# Prompt
+> generate a similar list for entrepreneurs and business people
+
+# Output
+Sure! Here's a table listing some of the most common and popular AI tools/products that can be included in a generative AI training program for entrepreneurs and business people:
+
+| Name                | Description                                                                 | Use Case                                 | Pricing                            | Link to the Product Page                           |
+|---------------------|-----------------------------------------------------------------------------|------------------------------------------|------------------------------------|----------------------------------------------------|
+| OpenAI GPT-4        | State-of-the-art language model for text generation and NLP tasks.          | Content creation, customer support, automation | Subscription-based, free tier available | [OpenAI GPT-4](https://www.openai.com/gpt-4)        |
+| Salesforce Einstein | AI-powered CRM tool that delivers predictions and recommendations.           | Sales, marketing, customer service       | Subscription-based, pricing on request | [Salesforce Einstein](https://www.salesforce.com/products/einstein/overview/) |
+| HubSpot             | Marketing, sales, and service software with AI capabilities.                | Marketing automation, CRM, customer service | Subscription-based, free tier available | [HubSpot](https://www.hubspot.com/)                |
+| IBM Watson          | Suite of enterprise AI tools for building, running, and managing AI models. | Data analysis, customer insights, automation | Subscription-based, free tier available | [IBM Watson](https://www.ibm.com/watson)           |
+| Google Cloud AI     | AI and machine learning products from Google Cloud.                         | Data analytics, machine learning, cloud AI services | Pay-as-you-go, free tier available | [Google Cloud AI](https://cloud.google.com/products/ai) |
+| Microsoft Azure AI  | Suite of AI services and tools for building and deploying AI solutions.     | AI development, cloud services           | Pay-as-you-go, free tier available | [Azure AI](https://azure.microsoft.com/en-us/services/machine-learning/)|
+| Amazon SageMaker    | Fully managed service that provides every developer and data scientist with the ability to build, train, and deploy ML models quickly. | Machine learning model development and deployment | Pay-as-you-go, free tier available | [Amazon SageMaker](https://aws.amazon.com/sagemaker/)|
+| Tableau             | Data visualization and business intelligence tool with AI analytics.        | Data visualization, business analytics   | Subscription-based, free trial available | [Tableau](https://www.tableau.com/)                |
+| Hootsuite           | Social media management platform with AI analytics.                         | Social media marketing, analytics        | Subscription-based, free trial available | [Hootsuite](https://www.hootsuite.com/)            |
+| Zoho CRM            | Customer relationship management software with AI features.                 | Sales automation, customer management    | Subscription-based, free tier available | [Zoho CRM](https://www.zoho.com/crm/)              |
+| Adobe Sensei        | AI and machine learning framework integrated into Adobe's Creative Cloud and Experience Cloud. | Content creation, digital marketing, design automation | Subscription-based, free trial available | [Adobe Sensei](https://www.adobe.com/sensei.html)  |
+| Drift               | Conversational marketing and sales platform with AI chatbots.               | Lead generation, customer engagement     | Subscription-based, pricing on request | [Drift](https://www.drift.com/)                    |
+| Grammarly Business  | AI-powered writing assistant for teams.                                     | Team communication, content creation     | Subscription-based, free trial available | [Grammarly Business](https://www.grammarly.com/business) |
+| Trello              | Project management tool with AI features.                                   | Project management, team collaboration   | Subscription-based, free tier available | [Trello](https://trello.com/)                      |
+| Slack               | Team collaboration tool with AI integrations.                               | Communication, team collaboration        | Subscription-based, free tier available | [Slack](https://slack.com/)                        |
+| Monday.com          | Work operating system for project and task management with AI capabilities. | Project management, workflow automation  | Subscription-based, free trial available | [Monday.com](https://monday.com/)                  |
+| Asana               | Project management tool with AI features.                                   | Project management, task tracking        | Subscription-based, free tier available | [Asana](https://asana.com/)                        |
+| Notion              | All-in-one workspace for note-taking, project management, and collaboration with AI features. | Project management, note-taking, team collaboration | Subscription-based, free tier available | [Notion](https://www.notion.so/)                   |
+| Canva for Enterprise| Design tool with AI features for creating marketing materials.              | Graphic design, marketing materials      | Subscription-based, free tier available | [Canva for Enterprise](https://www.canva.com/enterprise/) |
+| SurveyMonkey        | Online survey tool with AI features for creating and analyzing surveys.     | Market research, customer feedback       | Subscription-based, free tier available | [SurveyMonkey](https://www.surveymonkey.com/)      |
+
+This table includes a variety of tools that are commonly used in business applications of AI, along with details on their use cases, pricing, and links to their product pages. This should provide entrepreneurs and business people with a comprehensive overview of the tools available to them as they build and manage their businesses using generative AI.
